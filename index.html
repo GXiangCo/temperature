@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!--
+	Azure by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Go38Box</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+
+		<script language="javascript">
+		one=function(){
+			iftemp.location.reload()
+			ifhumidity.location.reload()
+		}
+		setInterval("one()",60000)
+		</script>
+	</head>
+	<body>
+		<div id="header-wrapper">
+			<div class="container">
+				<div id="header">
+					<div id="logo">
+						<h1><a href="#">Go38 Box</a></h1>
+						<p>Raspberry Pi 3B+</p>
+					</div>
+					<nav id="nav">
+						<ul>
+							<li class="current_page_item"><a href="index.html">Home</a></li>
+							<li><a href="index.html">Link</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div class="container" id="welcome">
+				<div class="row">
+					<div class="12u">
+						<section class="content">
+							<h2>溫濕度計</h2>
+							<iframe name="iftemp" src="../db_temp.html" width="550px" height="260px" frameborder="0" scrolling="no"></iframe>
+							
+							<iframe name="ifhumidity" src="../db_humidity.html" width="550px" height="260px" frameborder="0" scrolling="no"></iframe>
+
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container" id="copyright">
+			Design: <a href="http://templated.co">TEMPLATED</a>
+		</div>
+	</body>
+</html>
